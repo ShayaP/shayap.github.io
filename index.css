@@ -1,0 +1,67 @@
+:root {
+  --primary-color: #b43e8f;
+  --secondary-clor: #0e79b2;
+  --grey-color: #7a7d7d;
+  --black-color: #191923;
+  --white-color: #fbfef9;
+}
+
+p {
+  margin-bottom: 0;
+}
+
+b {
+  color: var(--secondary-clor);
+}
+
+nav {
+  background-color: var(--primary-color);
+}
+
+nav a {
+  color: var(--white-color);
+  transition: 0.2s linear;
+}
+
+nav a:hover {
+  color: var(--black-color);
+}
+
+.active {
+  color: var(--black-color);
+}
+
+.exp-title {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.exp-list {
+  list-style: none;
+}
+
+.exp-item {
+  display: flex;
+  flex-direction: column;
+  padding: 1% 5% 9% 5%;
+  border: 1px solid var(--grey-color);
+  border-radius: 5px;
+}
+
+.exp-desc {
+  margin-top: 2%;
+}
+
+.exp-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.icon {
+  width: 50px;
+  height: 50px;
+}

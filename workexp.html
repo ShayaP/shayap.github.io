@@ -3,7 +3,155 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+
+    <link rel="stylesheet" href="./index.css" />
     <title>Work Experience</title>
   </head>
-  <body></body>
+  <body>
+    <nav class="navbar navbar-expand-lg">
+      <a class="navbar-brand ml-3" href="index.html">Home</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div
+        class="collapse navbar-collapse mr-3"
+        style="justify-content: right;"
+        id="navbarNav"
+      >
+        <ul class="navbar-nav">
+          <li class="nav-item mx-2">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
+          <li class="nav-item mx-2">
+            <a class="nav-link" href="projects.html">Projects</a>
+          </li>
+          <li class="nav-item mx-2">
+            <a class="nav-link active" href="workexp.html">Work Experience</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="container">
+      <ul class="exp-list">
+        <li class="exp-item mt-5">
+          <div>
+            <div class="exp-header">
+              <div class="exp-title">
+                <img class="icon mr-3" src="media/ucsd.gif" alt="ucsd" />
+                <h1>CSE Tutor</h1>
+              </div>
+              <p><b>Class:</b> Software Engineering</p>
+              <p><b>From:</b> Apr 2019 - Dec 2019</p>
+            </div>
+            <ul class="exp-desc">
+              <li>
+                Helped students design projects and understand how to apply
+                different design patterns and MVC layering to their projects.
+              </li>
+              <li>
+                Showed students how to work with technologies such as React,
+                Node.js, Android, and AWS.
+              </li>
+              <li>
+                Assisted in creating labs for students to teach them about
+                frameworks and concepts.
+              </li>
+            </ul>
+          </div>
+        </li>
+
+        <li class="exp-item mt-5">
+          <div>
+            <div class="exp-header">
+              <div class="exp-title">
+                <img class="icon mr-3" src="media/ezoic.jpg" alt="ezoic" />
+                <h1>Ezoic Inc.</h1>
+              </div>
+              <p><b>Role:</b> Software Engineer Intern</p>
+              <p><b>From:</b> June 2019 - Sept 2019</p>
+            </div>
+            <ul class="exp-desc">
+              <li>
+                Worked with Golang to analyze and improve website quality and
+                loading speed by 30 points.
+              </li>
+              <li>
+                Created AWS Lambdas in JavaScript to automate site speed testing
+                for clients.
+              </li>
+              <li>
+                Trained models that optimized ad placements and increased client
+                revenue.
+              </li>
+              <li>
+                Analyzed and processed data to improve existing models and
+                improve platform quality.
+              </li>
+              <li>
+                Added features and improved existing tools for clients using
+                PHP.
+              </li>
+            </ul>
+          </div>
+        </li>
+
+        <li class="exp-item mt-5">
+          <div>
+            <div class="exp-header">
+              <div class="exp-title">
+                <img class="icon mr-3" src="media/YOMP.png" alt="YOMP" />
+                <h1>YOMP</h1>
+              </div>
+              <p><b>Role:</b> Software Engineer Intern</p>
+              <p><b>From:</b> Jul 2017 - Oct 2017</p>
+            </div>
+            <ul class="exp-desc">
+              <li>
+                Designed authentication and database for the app using the
+                Facebook SDK and Firebase.
+              </li>
+              <li>
+                Parallelized database calls to speed up the loading process
+                during startup using Async tasks.
+              </li>
+              <li>
+                Created an algorithm to load in relevant events based on user
+                data.
+              </li>
+            </ul>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </body>
 </html>
