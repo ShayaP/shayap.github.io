@@ -24,40 +24,102 @@
       integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
       crossorigin="anonymous"
     ></script>
+    <script
+      src="https://kit.fontawesome.com/ad0daeed2f.js"
+      crossorigin="anonymous"
+    ></script>
 
     <link rel="stylesheet" href="./index.css" />
     <title>About</title>
   </head>
-  <body></body>
-  <nav class="navbar navbar-expand-lg">
-    <a class="navbar-brand ml-3" href="index.html">Home</a>
-    <button
-      class="navbar-toggler"
-      type="button"
-      data-toggle="collapse"
-      data-target="#navbarNav"
-      aria-controls="navbarNav"
-      aria-expanded="false"
-      aria-label="Toggle navigation"
-    >
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div
-      class="collapse navbar-collapse mr-3"
-      style="justify-content: right;"
-      id="navbarNav"
-    >
-      <ul class="navbar-nav">
-        <li class="nav-item mx-2">
-          <a class="nav-link active" href="about.html">About</a>
-        </li>
-        <li class="nav-item mx-2">
-          <a class="nav-link" href="projects.html">Projects</a>
-        </li>
-        <li class="nav-item mx-2">
-          <a class="nav-link" href="workexp.html">Work Experience</a>
-        </li>
-      </ul>
+  <body>
+    <nav class="navbar navbar-expand-lg">
+      <a class="navbar-brand ml-3" href="index.html">Home</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div
+        class="collapse navbar-collapse mr-3"
+        style="justify-content: right;"
+        id="navbarNav"
+      >
+        <ul class="navbar-nav">
+          <li class="nav-item mx-2">
+            <a class="nav-link active" href="about.html">About</a>
+          </li>
+          <li class="nav-item mx-2">
+            <a class="nav-link" href="projects.html">Projects</a>
+          </li>
+          <li class="nav-item mx-2">
+            <a class="nav-link" href="workexp.html">Work Experience</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <div class="container about-container mt-5">
+      <h1 style="text-align: center;">About me</h1>
+      <hr />
+      <div class="about-sub-container">
+        <div class="about-details-container">
+          <h2>Who am I?</h2>
+          <p>
+            I am a master's student at University of California, San Diego
+            (UCSD). I spend most of my time working on web development projects,
+            Machine Learning projects, and vision/graphics projects. But I also
+            have many other hobbies such as playing the Guitar and Piano,
+            hiking, and surfing
+          </p>
+        </div>
+        <img
+          src="media/heashot.jpg"
+          alt="headshot"
+          class="img-thumbnail rounded-circle border border-primary"
+        />
+        <div class="about-details-container">
+          <h2>Details</h2>
+          <p class="detail-info mt-2"><b>Phone: </b>858-280-6238</p>
+          <p class="detail-info mt-2"><b>Email: </b>sparsa@ucsd.edu</p>
+          <p class="detail-info mt-2">
+            <b>Github: </b
+            ><a href="https://github.com/ShayaP" target="_blank"
+              ><i class="fab fa-github-square fa-2x"></i
+            ></a>
+          </p>
+          <p class="detail-info mt-2">
+            <b>LinkedIn: </b
+            ><a href="https://www.linkedin.com/in/shaya-parsa/" target="_blank"
+              ><i class="fab fa-linkedin fa-2x"></i
+            ></a>
+          </p>
+        </div>
+      </div>
+      <div class="img-gallery mt-5">
+        <img
+          class="img-thumbnail gallery mx-2"
+          style="transform: rotate(-90deg);"
+          src="media/deathvalley.jpg"
+          alt="deathvalley"
+        />
+        <img
+          class="img-thumbnail gallery mx-2"
+          style="transform: rotate(-90deg);"
+          src="media/hawaii.jpg"
+          alt="hawaii"
+        />
+        <img
+          class="img-thumbnail gallery mx-2"
+          src="media/hiking.jpg"
+          alt="hikinh"
+        />
+      </div>
     </div>
-  </nav>
+  </body>
 </html>

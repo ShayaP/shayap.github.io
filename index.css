@@ -1,6 +1,6 @@
 :root {
-  --primary-color: #b43e8f;
-  --secondary-clor: #0e79b2;
+  --primary: #b43e8f;
+  --secondary: #0e79b2;
   --grey-color: #7a7d7d;
   --black-color: #191923;
   --white-color: #fbfef9;
@@ -10,12 +10,24 @@ p {
   margin-bottom: 0;
 }
 
+h2 {
+  text-align: center;
+}
+
+i {
+  color: var(--primary);
+}
+
+.border-primary {
+  border-color: var(--primary) !important;
+}
+
 b {
-  color: var(--secondary-clor);
+  color: var(--secondary);
 }
 
 nav {
-  background-color: var(--primary-color);
+  background-color: var(--primary);
 }
 
 nav a {
@@ -25,6 +37,10 @@ nav a {
 
 nav a:hover {
   color: var(--black-color);
+}
+
+img {
+  width: 250px;
 }
 
 .active {
@@ -64,4 +80,40 @@ nav a:hover {
 .icon {
   width: 50px;
   height: 50px;
+}
+
+.about-container {
+  padding: 5%;
+  border: 1px solid var(--grey-color);
+  border-radius: 5px;
+}
+
+.about-sub-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-top: 5%;
+}
+
+.about-details-container {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+}
+
+.detail-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.gallery {
+  width: 200px;
+  height: 200px;
+}
+
+.img-gallery {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
